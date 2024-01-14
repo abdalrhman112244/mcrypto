@@ -1,0 +1,93 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.AB-navbar {
+  width: calc(100% - 15.75rem);
+  background-color: #12181F;
+  height: 6.25rem;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  right: 0px;
+  padding: 0px 3rem;
+  border-left: 2px solid #161D26;
+  ;
+}
+
+body.collapsed .AB-navbar {
+  width: calc(100% - 6.75rem);
+  transition: all 0.01s ease-in-out;
+}
+.AB-button-menu{
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+#AB-searchInput {
+  color: white;
+  width: 25rem;
+  height: 3.75rem;
+  border-radius: 1.25rem;
+  background: #161D26;
+  padding: 10px 10px 10px 60px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+
+input[type="image"] {
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  left: 70px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.AB-menu-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.75rem;
+  position: relative;
+}
+
+.AB-Bart2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.62rem;
+}
+
+.AB-nav-icon {
+  border-radius: 1.25rem;
+  background: #161D26;
+  width: 3.75rem;
+  height: 3.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.AB-nav-select {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9.0625rem;
+  height: 3.75rem;
+  border-radius: 1.25rem;
+  background: #161D26;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
