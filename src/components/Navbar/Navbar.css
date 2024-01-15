@@ -1,9 +1,3 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-}
-
 .AB-navbar {
   width: calc(100% - 15.75rem);
   background-color: #12181F;
