@@ -85,3 +85,15 @@ input[type="image"] {
   border: none;
   cursor: pointer;
 }
+@media screen and (max-width:1200px) {
+  .AB-navbar{
+    width: calc(100% - 12rem);
+  }
+  #AB-searchInput{
+    width: 18rem;
+  }
+  .AB-nav-select{
+    width: 8.0625rem;
+    height: 3.75rem;
+  }
+}

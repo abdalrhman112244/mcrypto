@@ -294,3 +294,8 @@ body.collapsed .AB-btn-dark-white {
 body.collapsed .AB-dark-white {
     display: none;
 }
+@media screen and (max-width:1200px) {
+    .AB-sidebar{
+        max-width: 12rem;
+    }
+}
